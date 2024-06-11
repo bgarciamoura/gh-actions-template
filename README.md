@@ -10,9 +10,10 @@
 
 # GH Actions Template
 
-This repo aims to be my personal template to create new repositories with predefined workflows.
+Thanks to be here!!!
 
-The goal is keep this repo updated with new workflows when there's a need of that.
+
+The main goal of this repo is to keep all my github workflows in the same place and be a personal template to create new repositories.
 
 
 <details>
@@ -48,26 +49,28 @@ The goal is keep this repo updated with new workflows when there's a need of tha
 
 ### Auto PR
 
-The main goal of this workflow it's automate the PR's creation for personal repos. Stop creating PR's manually or commiting just to one branch, create as many branch do you want and use this workflow to auto send them to the main branch.
+The main goal of this workflow is to automate the PR's creation for personal repos. 
+
+Stop creating PR's manually, or commiting to just one branch, create as many branches as do you want and use this workflow to auto send them to the main branch.
 
 *Advertising*<br>
 Do not use this workflow for teams.
-To do that you have to change the workflow removing the auto merge option.
+To do that you have to change the workflow, removing the auto merge option.
 
 #### How to config
 
-The first thing you'll have to do is create a token to gh-actions access your repository:
+The first thing you'll have to do is to create a github actions token:
 
-1. You have to enter in your github account, click on your photo on the right screen side and go to settings;
-2. Once there, in the left panel scroll down until you find the **Developer settings** and click it;
+1. You have to access your github account, click on your photo on the right side of the screen and go to settings;
+2. Once there, in the left panel scroll down until you find the **Developer settings** and click on;
 3. In the new page, click on **Personal access tokens**, to expand the selection, and choose **Fine-grained tokens**;
-4. Generate a new token with access permissions to all your repositories and repositories permissions to **Read and Write**;
+4. Now, generate a new token with access to your repositories and **Read and Write** permissions;
 5. Save this token in a safe place to use on your repositories;
 
-With the token in hands, follow to your desired repository and access the settings page of that repo.
+With the token in hands, go to your desired repository and access the settings page of that repo.
 
 1. In the settings page, on the left panel, access the **Secrets and variables** section to expand the list, under Security options and click on **Actions**;
-2. On that page, you can create a new *Repository secret*, it will store the token that you had created in the previous step;
+2. On that page, you can create a new *Repository secret*, it will store the token that you have created in the previous step;
 3. Click on **New repository secret**, put the name as 'TOKEN', all caps, and paste the token on the *Secret* section, then save and you're ready to go;
 
 
@@ -76,7 +79,7 @@ With the token in hands, follow to your desired repository and access the settin
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
